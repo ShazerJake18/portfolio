@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    text-align: center;
+    margin-top: 15px;
+}
+
+h1{
+    font-family: Arial;
+    color: rgb(18, 18, 194);
+    font-size: 30px;
+    margin: 0;
+}
+
+.qoute{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 5px;
+    margin: 5px;
+}
+
+.login-container{
+    width: 390px;
+    margin: 30px auto;
+    padding: 15px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.1);
+    background-color: white;
+    border-radius: 10px;
+}
+
+input{
+    width: 99%;
+    display: block;
+    outline: none;
+    padding: 10px 2px;
+    font-size: 15px; 
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 15px  0;
+}
+
+.btn-login{
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding:8px 0;
+    background-color: rgb(56, 56, 236);
+    color: white;
+    font-size: 18px;
+    font-family: Arial;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.forgot{
+    display: block;
+    margin: 15px auto;
+    text-decoration: none;
+}
+
+.forgot:hover{
+    text-decoration: underline;
+}
+
+hr{
+    margin: 20px 0;
+    opacity: 0.3;
+}
+
+.create{
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(18, 189, 18);
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 8px 0;
+    font-size: 18px;
+    font-family: Arial;
+    color: white;
+    cursor: pointer;
+}
+
+.belowtext{
+    font-family: Arial;
+}
+
+.page{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.page:hover{
+    color: blue;
+    text-decoration: underline;
+}
